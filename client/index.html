@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+            <!-- rack upp handen nar ni har formularet -->
+            <form id="form">
+                <label for="firstname">
+                    Firstname
+                </label>
+                <input type="text" name="firstname" id="firstname">
+
+                <label for="lastname">
+                    Lastname
+                </label>
+                <input type="text" name="lastname" id="lastname">
+
+                <label for="phone">
+                    Phone
+                </label>
+                <input type="text" name="phone" id="phone">
+
+                <input type="submit" value="Create" id="button">
+            </form>
+        </header>
+        <div class="content">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

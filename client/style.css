@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    padding: 8rem;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+}
+
+form input[type="text"], form label {
+    display: block;
+    width: 100%;
+}
+
+form input+label, input+input {
+    margin-top: 1rem;
+}
+
+form input[type="text"] {
+    height: 32px;
+    font-size: 100%;
+    padding: 0.5rem;
+}
+
+form input[type="submit"] {
+    height: 32px;
+    padding: 0.5rem;
+    font-size: 100%;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+table td, table th {
+    padding: 0.5rem;
+}
